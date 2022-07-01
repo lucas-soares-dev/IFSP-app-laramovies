@@ -1,0 +1,2 @@
+
+Normalize accents string: https://gist.github.com/darryl-snow/3817411

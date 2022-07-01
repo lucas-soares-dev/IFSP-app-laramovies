@@ -1,0 +1,55 @@
+/* main */
+.toast {
+    z-index: 999;
+}
+
+.bg-dark {
+    background-color: #1e1e2e !important;
+}
+
+.bg-secondary {
+    background-color: #27293d !important;
+}
+
+/* card movies */
+.card {
+    min-height: 250px;
+}
+
+.card .tags span {
+    font-size: 12px;
+}
+
+#btn-tag-delete {
+    padding: 0.8px 4px;
+}
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 0 -159px 30px rgb(0 0 0 / 60%) !important;
+}
+
+.card-cover:hover {
+    box-shadow: inset 0 -159px 30px rgb(0 0 0 / 80%) !important;
+    transition: all .2s;
+}
+
+#movie-title {
+    font-size: 28px;
+}
+
+/* footer */
+footer {
+    bottom: 0;
+}
+
+/*====================================================
+ * MOBILE 
+ ===================================================*/
+@media (max-width: 1024px) {
+    .card .tags span {
+        font-size: 10px;
+    }
+}
